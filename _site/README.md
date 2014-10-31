@@ -1,7 +1,7 @@
-DevTips-Starter-Kit (Jekyll Friendly)
+I'm Using DevTips-Starter-Kit (Jekyll Friendly)
 ===================
 
-Use this as a simple structure for a simple start to a simple site.
+I'm using this as a simple structure for a simple start to a simple site.
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=GTBaQ2DcGUk
