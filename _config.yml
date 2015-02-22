@@ -3,8 +3,17 @@ title: My Theme
 description: "Solver // Designer // Teacher"
 email: artist@gmail
 
-# Build settings
+# Change the default images and content here
+logo: logo.svg
+bg-img: hero-bg.jpg
 
+avatar: face.jpg
+blurb: <p><strong>Lorem ipsum dolor sit amet,</strong> consectetur <a href="">adipiscing elit</a>. Nunc faucibus vitae nisi nec lacinia. Praesent nec maximus orci, nec consectetur dolor. Maecenas aliquet ligula id tincidunt malesuada.</p>
+
+
+
+
+# Build settings
 markdown: kramdown
 permalink: pretty
 
