@@ -7,6 +7,7 @@
     
     .face-img
         border-radius: 50%
+        background-image: url(/assets/img/#{$avatar-path})
         background-size: cover
         background-position: center
         +size(200px)
@@ -53,7 +54,7 @@
     margin: 50px auto
     font-size: 24px
     text-align: center
-    font-weight: 300px
+    font-weight: 300
     line-height: 1.6
 
     
@@ -88,7 +89,7 @@
         
         
     @for $i from 1 through 10
-        &.skill-#{$i} span:nth-child(-n+#{$i + 1})
+        &.skill-#{$i} span:nth-child(-n+#{$i})
             @extend %skill-color // to collapse the css output into a bunch of selectors and one property, instead of a selector+property for each one
 
 
