@@ -1,0 +1,50 @@
+# Portfolio settings
+title: My Theme
+description: "Solver // Designer // Teacher"
+email: artist@gmail
+
+#--------------------------------
+# Navigation Section
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+logo: 'logo.svg'
+bg-img: 'hero-bg.jpg'
+
+
+
+#--------------------------------
+# About Section
+
+avatar: 'face.jpg'
+
+blurb: <p><strong>Lorem ipsum dolor sit amet,</strong> consectetur <a href="">adipiscing elit</a>. Nunc faucibus vitae nisi nec lacinia. Praesent nec maximus orci, nec consectetur dolor. Maecenas aliquet ligula id tincidunt malesuada.</p>
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '8'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '6'}
+
+
+
+#--------------------------------
+# Work Section
+
+projects:
+- {name: Free Drawing, folder: 'proj-1'}
+- {name: Blender Cup, folder: 'proj-2'}
+- {name: Blender Molecular, folder: 'proj-3'}
+- {name: TA App UI/UX, folder: 'proj-4'}
+- {name: Website Header, folder: 'proj-5'}
+- {name: Slim Pear Shading, folder: 'proj-6'}
+- {name: Estefan Rotoing, folder: 'proj-7'}
+- {name: Chasm Compositing, folder: 'proj-8'}
