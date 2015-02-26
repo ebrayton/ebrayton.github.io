@@ -1,20 +1,31 @@
-<section class="alt-section">
+<section class="alt-section section-work">
 
 <h3 id="work">Work</h3>
 
-<div class="thumb-container">
-
-
-	{% for project in site.data.settings.projects %}
-
-	<a href="" class="thumb-unit" style="background-image:url(/assets/img/work/{{ project.folder }}/thumb.png);">
-		<div class="thumb-overlay">
-			<strong>{{ project.name }}</strong>
+<div class="work-belt">
+	<div class="thumb-wrap">
+		<div class="thumb-container">
+			{% for project in site.data.settings.projects %}
+			<div class="thumb-unit" style="background-image:url(/assets/img/work/{{ project.folder }}/thumb.png);">
+				<div class="thumb-overlay">
+					<strong>{{ project.name }}</strong>
+				</div>
+			</div>
+			{% endfor %}
 		</div>
-	</a>
-
-	{% endfor %}
-
+	</div>
+	<div class="work-wrap">
+		<div class="work-container">
+			<div class="work-return">{% include icons/icon-prev.html %}</div>
+			<h4>Do Work</h4>
+			<div class="img" style="width: 600px; height: 500px; background: #ccc;"></div>
+			<p>Proin a lorem libero. Etiam vestibulum iaculis consequat. Quisque vitae ornare ante. </p>
+			<div class="img" style="width: 600px; height: 500px; background: #ccc;"></div>
+			<p>Proin a lorem libero. Etiam vestibulum iaculis consequat. Quisque vitae ornare ante.</p>
+			<div class="img" style="width: 600px; height: 500px; background: #ccc;"></div>
+			<p>Proin a lorem libero. Etiam vestibulum iaculis consequat. Quisque vitae ornare ante.</p>
+		</div>
+	</div>
 </div>
 
 </section>
